@@ -8,7 +8,7 @@
     "mpm": "./bin/cli.js"
   },
   "scripts": {
-    "postinstall": "tsd reinstall",
+    "tsd:reinstall": "tsd reinstall",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
