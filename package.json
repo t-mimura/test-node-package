@@ -1,0 +1,19 @@
+{
+  "name": "test-node-package",
+  "version": "1.0.0",
+  "description": "this is test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-mimura/test-node-package.git"
+  },
+  "author": "MIMURA Tomohiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t-mimura/test-node-package/issues"
+  },
+  "homepage": "https://github.com/t-mimura/test-node-package#readme"
+}
