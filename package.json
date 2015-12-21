@@ -4,7 +4,11 @@
   "version": "1.0.0",
   "description": "this is test package",
   "main": "index.js",
+  "bin": {
+    "mpm": "./bin/cli.js"
+  },
   "scripts": {
+    "postinstall": "tsd reinstall",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/t-mimura/test-node-package/issues"
   },
-  "homepage": "https://github.com/t-mimura/test-node-package#readme"
+  "homepage": "https://github.com/t-mimura/test-node-package#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "tsd": "^0.6.5"
+  }
 }
