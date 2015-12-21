@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "test-node-package",
   "version": "1.0.0",
   "description": "this is test package",
